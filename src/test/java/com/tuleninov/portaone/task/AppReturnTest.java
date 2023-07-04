@@ -1,4 +1,5 @@
-import com.tuleninov.portaone.task.AppReturn;
+package com.tuleninov.portaone.task;
+
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -45,8 +46,8 @@ public class AppReturnTest {
     @Test
     void testAppReturnText2() {
         String text2 = """
-                C makes it easy for you to shoot yourself in the foot.
-                C++ makes that harder, but when you do, it blows away your whole leg. (с) Bjarne Stroustrup
+                C makes it easy for you to shoot yourself in the foot. C++ makes that harder, but when you
+                do, it blows away your whole leg. (с) Bjarne Stroustrup
                 """;
         var ch = new AppReturn();
 
